@@ -79,7 +79,7 @@ var IconToggle = React.createClass({
     return {
       "name" : "IconToggle",
       "label" : "",
-      "classNames": "btn btn-primary btn-sm",
+      "classNames": "btn btn-primary btn-xs",
       "icon": "glyphicon glyphicon-asterisk"
     };
   },
@@ -99,7 +99,7 @@ var IconSmallButton = React.createClass({
   getDefaultProps() {
     return {
       "name" : "IconSmallButton",
-      "classNames": "btn btn-primary btn-sm"
+      "classNames": "btn btn-primary btn-xs"
     };
   },
   render() {
@@ -118,7 +118,7 @@ var ButtonSmall = React.createClass({
   getDefaultProps() {
     return {
       "name" : "ButtonSmall",
-      "classNames": "btn btn-primary btn-sm"
+      "classNames": "btn btn-primary btn-xs"
     };
   },
   render() {
