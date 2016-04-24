@@ -79,7 +79,7 @@ var IconToggle = React.createClass({displayName: "IconToggle",
     return {
       "name" : "IconToggle",
       "label" : "",
-      "classNames": "btn btn-primary btn-sm",
+      "classNames": "btn btn-primary btn-xs",
       "icon": "glyphicon glyphicon-asterisk"
     };
   },
@@ -99,7 +99,7 @@ var IconSmallButton = React.createClass({displayName: "IconSmallButton",
   getDefaultProps() {
     return {
       "name" : "IconSmallButton",
-      "classNames": "btn btn-primary btn-sm"
+      "classNames": "btn btn-primary btn-xs"
     };
   },
   render() {
@@ -118,7 +118,7 @@ var ButtonSmall = React.createClass({displayName: "ButtonSmall",
   getDefaultProps() {
     return {
       "name" : "ButtonSmall",
-      "classNames": "btn btn-primary btn-sm"
+      "classNames": "btn btn-primary btn-xs"
     };
   },
   render() {
@@ -138,7 +138,7 @@ var ButtonSmall = React.createClass({displayName: "ButtonSmall",
 var DemoApp = React.createClass({displayName: "DemoApp",
   getInitialState() {
     return {
-      message: ''
+      message: 'Click a button!'
     }
   },
   messageHandler(msg) {
