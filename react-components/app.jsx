@@ -3,7 +3,7 @@
 var DemoApp = React.createClass({
   getInitialState() {
     return {
-      message: ''
+      message: 'Click a button!'
     }
   },
   messageHandler(msg) {
